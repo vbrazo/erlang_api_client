@@ -26,7 +26,7 @@
 -endif.
 
 -define(SERV_NAME, ?MODULE).
--define(API_URL, <<"https://api.algorithmia.com/v1/algo">>).
+-define(API_URL, <<"https://api.datafit.com/v1">>).
 -define(DEFAULT_HTTP_OPTIONS, [{pool, default}]).
 
 -record(state, {api_key = <<>> :: binary(), http_opts = ?DEFAULT_HTTP_OPTIONS :: list()}).

@@ -62,7 +62,7 @@ test_hello_alg_full_args() ->
     end.
 
 test_build_uri() ->
-    ?assertEqual(<<"https://api.algorithmia.com/v1/algo/foo?stdout=true">>,
+    ?assertEqual(<<"https://api.datafit.com/v1/foo?stdout=true">>,
                  eac_server:build_uri(<<"foo">>, #{<<"stdout">> => true})),
     ok.
 
