@@ -1,11 +1,12 @@
 # Erlang API Client
 
-Erlang API Client using [Hackney](https://github.com/benoitc/hackney/) HTTP Client
+Erlang API Client using [Hackney](https://github.com/benoitc/hackney/) HTTP Client.
 
 ## Dependencies
 
 * Erlang (>= R18)
 * [rebar3](https://github.com/erlang/rebar3)
+* [rebar3_format](https://github.com/AdRoll/rebar3_format)
 
 ## Running application
 
